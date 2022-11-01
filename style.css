@@ -121,6 +121,7 @@ main a:hover{
     padding-top: 20px;
     font-weight: bold;
     font-size: 30px;
+    text-transform: uppercase;
     
 }   
 .service{
@@ -131,6 +132,9 @@ main a:hover{
 }
 .service:hover{
     transform: translateY(-5px);
+}
+.service:visited{
+    color: red;
 }
 .service a{
     text-decoration: none;
@@ -149,3 +153,116 @@ main a:hover{
     font-weight: 200;
     text-decoration: none;
 }
+.works{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.works h1{
+    font-size: 25px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.work{
+    padding: 10px;
+    margin: 15px;
+    background-color: #0c6868;
+}
+.work img{
+    width: 150px;
+}
+.work p{
+    padding: 10px;
+    font-weight: 200;
+}
+.satisfied h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.clients{
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(193, 176, 176);
+    margin: 20px;
+    border-radius: 10px;
+}
+.clients img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
+.fa-star{
+    color: black;
+    margin-top: 10px;
+    padding: 2px;
+}
+.fa-checked{
+    color: orange;
+}
+.clients h4{
+    padding: 5px;
+    font-size: 18px;
+}
+.clients h5{
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+
+.appoinment h1{
+    text-align: center;
+    padding: 10px;
+}
+form{
+    background-color: #f2f2f2;
+    padding: 20px 80px;
+    margin: 5px 50px;
+    border-radius: 15px;
+}
+label,
+input{
+    margin: 10px 0px;
+}
+.input{
+    width: 176px;
+}
+.input,
+input{
+    border-radius: 5px;
+    padding: 5px;
+}
+.submit{
+    padding: 5px 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: #0c6868;
+    transition: 0.8s;
+    font-size: 18px;
+}
+.submit:hover{
+    background-color: white;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    margin: 30px 10px;
+    grid-gap: 10px;
+}
+.cont img{
+    width: 100px;
+}
+.cont{
+    background-color: #f2f2f2;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
+

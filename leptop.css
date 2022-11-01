@@ -1,0 +1,43 @@
+@media screen and (min-width:420px) {
+    nav{
+        display: flex;
+        background-color: transparent;
+        justify-content: space-between;
+    }
+    .menu a{
+        flex-direction:row;
+        background-color: transparent;
+    }
+    main{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .about{
+        width:100%;
+        height: 400px;
+    }
+    .abouts{
+        width: 40%;
+        padding: 30px;
+        float: left;
+    }
+    .about-details{
+        margin-top: 100px;
+        margin-left: 50px;
+        text-align: left;
+    }
+    .service,
+    .work,
+    .clients{
+        width: 30%;
+        float: left;
+    }
+    .appoinment{
+        text-align: center;
+    }
+    label{
+        font-size: 25px;
+    }
+    
+}
