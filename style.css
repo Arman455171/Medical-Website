@@ -77,4 +77,75 @@ main a:hover{
     color: black;
 }
 
+
+.about img{
+    width: 100%;
+    margin-top: 30px;
+    padding: 5px;
+}
+.about-details{
+    text-align: center;
+    padding: 10px;
+}
+.about-details h1{
+    color: #0c6868;
+    font-weight: bold;
+}
+.about-details p{
+    color: #0c6868;
+    font-weight: 200;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.about-details a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: #0c6868;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.8s;
+}
+.about-details a:hover{
+    color: black;
+    background-color: #00CED1;
+}
+
+.services{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.services h1{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
     
+}   
+.service{
+    background-color: #f2f2f2;
+    margin: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.service:hover{
+    transform: translateY(-5px);
+}
+.service a{
+    text-decoration: none;
+}
+.service img{
+    width: 100px;
+    height: 80px;
+    padding: 10px;
+}
+.service h2{
+    color: black;
+}
+.service p{
+    padding: 5px 20px;
+    color:black;
+    font-weight: 200;
+    text-decoration: none;
+}
