@@ -26,6 +26,7 @@ span{
     font-weight: bold;
     border-radius: 10px;
     margin:5px;
+    transition: 1s;
 }
 .menu a:hover{
     background-color: gray;
