@@ -22,10 +22,10 @@ span{
     text-decoration: none;
     color: black;
     padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
     background-color: #0c6868;
     font-weight: bold;
-    border-radius: 10px;
-    margin:5px;
     transition: 1s;
 }
 .menu a:hover{
